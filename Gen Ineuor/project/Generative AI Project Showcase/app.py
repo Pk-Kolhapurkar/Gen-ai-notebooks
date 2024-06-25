@@ -3,7 +3,7 @@ from transformers import pipeline
 from serpapi import GoogleSearch
 
 def get_latest_info(query):
-    serpapi_key = st.secrets["serpapi_key"]
+    serpapi_key = st.secrets["42e088db08191f8f2f7d516a9016f579306b5d6d3940d86d840d5370207a5b6c"]
     search = GoogleSearch({
         "q": query,
         "api_key": serpapi_key
